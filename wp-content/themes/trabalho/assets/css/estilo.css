@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+h2{
+	font-weight: bold;
+}
+
+header{
+	background-color: #0cc7f6;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-attachment: fixed;
+}
+body{
+	width: 100%;
+}
+html{
+	height: 100%;
+	width: 100%;
+	margin-top: 0px !important;
+}
+body{
+	height: 100%;
+	width: 100%;
+}
+/*FORMATANDO NAV BAR*/
+nav.navbar.navbar-inverse{
+	border-radius: 0px;
+	height: 69px;
+	background-color: #1c1c1c;
+}
+.navbar-brand{
+	margin-top: 10px;
+}
+.navbar-nav{
+	float: right;
+	margin: 0;
+	border-radius: 0px;
+	margin-top: 10px;
+}
+
+.container{
+
+	margin-top: 200px;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+}
+.container h1{
+
+
+
+}
+.container a{
+	padding: 15px 50px;
+	border: 2px solid white;
+	clear: both;
+	position: absolute;
+	text-align:center ;
+	bottom: -80px;
+	left: 500px;
+	color: white;
+
+}
+@media (max-width: 992px) {
+	.container a{
+		padding: 15px 50px;
+		border: 2px solid white;
+		clear: both;
+		position: absolute;
+		text-align:center ;
+		bottom: -80px;
+		left: 300px;
+		color: white;}
+
+	}
+	@media (max-width: 767px) {
+		.container a {
+			padding: 15px 50px;
+			border: 2px solid white;
+			clear: both;
+			position: absolute;
+			text-align: center;
+			bottom: -80px;
+			left: 100px;
+			color: white;
+
+		}
+	}
+/*sessao  */
+
+.caixa_texto{
+	margin-top: 20px;
+}
+.caixa_imagem{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.col-xs-7.col-sm-6.col-lg-6{
+
+}
+/*footer*/
+
+footer {
+	background-color: #1c1c1c;
+	text-align: center;
+}
+footer li{
+	padding-left: 2px;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+footer p{
+	padding-bottom: 80px;
+}
